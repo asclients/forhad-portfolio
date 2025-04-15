@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 10px / 13px 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    color: #000;
+    background: unset;
+    overflow: visible;
+    word-wrap: break-word;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* 
+-----------------------------------------------
+Newspaper Reports Template Style
+Name:        Newspaper Reports
+License:     Premium Version
+Version:     3.0
+Author:      Newspaper Reports
+Author Url:  https://www.newspaperreports.com
+Contact:     asupdatemedia518@gmail.com
+----------------------------------------------- */
+
+:root {
+    --asF-hd-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-owner-font: 700 18px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-bx-rgb-color: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+    --asF-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-author-font-color: #000;
+    --asF-nprAS-hd-ads-content: 'Advertisement - scroll for more content';
+    --asF-nprAS-hd-ads-onylyContent: 'Advertiser';
+    --asF-nprAS-hd-ads-color: #787878;
+    --asF-nprAS-hd-ads-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-asM-ads-author-color: #626262;
+    --asF-asM-ads-author-hover-color: #b60a7c;
+    --asF-sub-link-color: #626262;
+    --asF-sub-link-hover-color: #303030;
+    --asF-section-hdLine-hover-color: #d60000;
+    --asF-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --asF-item-hero-headline-color: #303030;
+    --asF-item-headline-color: #000;
+    --asF-item-headline-hover-color: #626262;
+    --asF-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --asF-item-description-color: #303030;
+    --asF-item-description-hover-color: #575050fb;
+    --asF-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-item-tag-color: #AA1E23;
+    --asF-item-publish-time-color: #626262;
+    --asF-border-any-side-color: #c2c2c2;
+    --asF-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-third-party-athor-color: #626262;
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --btnBx-color: #04AA6D;
+    --asF-cg-link-color: #fff;
+    --asF-cg-link-hover-color: #00FF7F;
+    --asF-border-top-color: rgb(0, 152, 254);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+container {
+    display: block;
+}
+
+.asF_main_hd {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.asF_hd_ct {
+    background: #303030;
+    border-top: 5px solid rgb(0, 152, 254);
+}
+
+.asF_main_nv {
+    padding: 5px 0;
+}
+
+.jus_sp {
+    justify-content: space-between;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.width_90 {
+    width: 90%;
+}
+
+.mx_width_1200 {
+    max-width: 1200px;
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.asF_main_thumb {
+    padding-right: 10px;
+}
+
+.main_owner_verification {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid #303030;
+}
+
+.asF_owner_tt {
+    font: var(--asF-owner-font);
+    color: #fff;
+}
+
+.asF_owner_tt span {
+    color: var(--asF-cg-link-hover-color);
+}
+
+.asF_owner_tt:hover span {
+    color: #fff;
+}
+
+.asF_hd_it {
+    list-style-type: none;
+}
+
+.asF_hd_it .asF_hd_itC,
+.asF_hd_it .asF_hd_itCt {
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.list_style {
+    list-style-type: none;
+}
+
+.asF_hd_itC {
+    margin-right: 10px;
+}
+
+.asF_hd_it a {
+    font: var(--asF-hd-font);
+    padding: 3px 5px;
+    display: inline-block;
+    
+}
+
+.asF_hd_it a:hover {
+    color: #000;
+    /* color: var(--asF-cg-link-hover-color); */
+    background: #fff;
+}
+
+@media (max-width: 760px) {
+    .asF_hd_area {
+        display: none;
+    }
+
+    .main_nv {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .asF_main_owner {
+        flex-flow: column;
+        text-align: center;
+    }
+}
+
+/* ASF Owner Bio Area */
+.asF_gb_ct {
+    margin-top: 30px;
+}
+
+.asF_owner_fc {
+    width: 50%;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.asF_owner_fc img {
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    /* background: var(--asF-bx-rgb-color); */
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+
+.asF_owner_fc_des {
+    padding: 10px 0px;
+    font: 600 14px / 28px var(--asF-item-description-font);
+}
+
+.asF_owner_bio {
+    width: 40%;
+}
+
+.asF_owner_bio h1 {
+    font: 700 22px / 28px var(--asF-item-headline-font);
+}
+
+.asF_owner_bio h1 span {
+    color: #d60000;
+}
+
+.asF_owner_bio p {
+    padding: 20px 0;
+    font: 600 14px / 28px var(--asF-item-description-font);
+    color: #303030;
+}
+
+@media (max-width: 500px) {
+    .asF_gb_info {
+        flex-flow: column;
+    }
+
+    .asF_owner_bio {
+        width: 100%;
+    }
+
+    .asF_owner_fc {
+        width: 100%;
+    }
+}
+
+/* ASF Service Area Design */
+.asF_sc_area {
+    display: block;
+    margin: 50px 0;
+}
+
+.asF_sc_ct {
+    gap: 20px;
+}
+
+.asF_sc_item {
+    width: 250px;
+}
+
+.asF_sc_item p {
+    font: 700 14px / 28px var(--asF-item-headline-font);
+}
+
+.asF_sc_item p span {
+    color: #303030;
+}
+
+.asF_sc_bt {
+    display: inline-block;
+    padding: 20px;
+    font: 16px / 28px var(--asF-item-headline-font);
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.asF_sc_bt:hover {
+    background: #303030;
+}
+
+.asF_sc_ads_it {
+    background: var(--asF-bx-rgb-color);
+}
+
+.asF_sc_g4a_it {
+    background-color: #00DBDE;
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.asF_sc_fb_it {
+    background: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+}
+
+@media (max-width: 1180px) {
+    .asF_sc_item {
+        flex: 1;
+    }
+}
+
+@media (max-width: 930px) {
+    .asF_sc_ct {
+        flex-wrap: wrap;
+    }
+
+    .asF_sc_item {
+        flex: 35%;
+    }
+}
+
+@media (max-width: 460px) {
+    .asF_sc_ct {
+        text-align: center;
+    }
+
+    .asF_sc_item {
+        flex: 100%;
+    }
+}
+
+/* ASF Global Social Area */
+.asF_gb_social_area {
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid var(--asF-border-any-side-color);
+    border-bottom: 1px solid var(--asF-border-any-side-color);
+}
+
+.asF_gb_scl_ct {
+    text-align: center;
+}
+
+.asF_gb_fb_bt a {
+    display: inline-block;
+    font: 700 14px / 28px var(--asF-item-headline-font);
+    color: #ffffff;
+    background: #0693e3;
+    padding: 20px 30px;
+}
+
+/* ASF Happy Buyers Area */
+.asF_gb_br_area {
+    margin: 30px 0;
+}
+
+.asF_gb_br_hL {
+    text-align: center;
+}
+
+.asF_gb_br_tt {
+    font: 700 22px / 28px var(--asF-item-headline-font);
+    border-bottom: 5px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.asF_gb_br_tt span {
+    color: #d60000;
+}
+
+.asF_gb_br_thumb {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.asF_gb_br_thumb img {
+    width: 70%;
+    max-width: 100%;
+}
