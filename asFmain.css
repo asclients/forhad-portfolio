@@ -165,7 +165,8 @@ container {
     
 }
 
-.asF_hd_it a:hover {
+.asF_hd_it a:hover,
+.asF_hd_it a:focus {
     color: #000;
     /* color: var(--asF-cg-link-hover-color); */
     background: #fff;
